@@ -7,7 +7,10 @@ module.exports = {
   ui: {
     port: 9191,
   },
-  files: [`${MODULE_NAME}/target/**`, `${MODULE_NAME}/src/java/resource/**`],
+  files: [
+    `${MODULE_NAME}/target/**`, 
+    // `${MODULE_NAME}/src/java/resource/**`
+  ],
   open: false,
   reloadDelay: 0,
   watch: true,

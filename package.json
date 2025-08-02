@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Ethantool template",
   "scripts": {
-    "dev": "concurrently -n theme,admin -c cyan,magenta \"browser-sync start --config 'ethantool-theme/bs-theme-config.js'\" \"browser-sync start --config 'ethantool-admin-plugin/bs-admin-config.js'\"",
-    "dev:theme": "browser-sync start --config 'ethantool-theme/bs-theme-config.js'",
-    "dev:admin": "browser-sync start --config 'ethantool-admin-plugin/bs-admin-config.js'"
+    "dev": "concurrently -n theme,admin -c cyan,magenta \"browser-sync start --config 'bs-theme-config.js'\" \"browser-sync start --config 'bs-admin-config.js'\"",
+    "dev:theme": "browser-sync start --config 'bs-theme-config.js'",
+    "dev:admin": "pnpm --filter ethantool-admin-plugin run dev:watch & browser-sync start --config 'bs-admin-config.js'",
+    "dev:admin:watch": "pnpm --filter ethantool-admin-plugin run dev:watch"
   },
   "keywords": [],
   "author": "Ethan (ethandev512@gmail.com)",
