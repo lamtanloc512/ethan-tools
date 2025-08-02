@@ -1,4 +1,4 @@
-package org.acme.ezy_starter.web.test;
+package org.acme.ethantool.web.test;
 
 import com.tvd12.ezyhttp.server.boot.EzyHttpApplicationBootstrap;
 import com.tvd12.ezyhttp.server.core.annotation.ComponentsScan;
@@ -10,7 +10,7 @@ import com.tvd12.ezyhttp.server.core.annotation.PropertiesSources;
 })
 @ComponentsScan({
     "org.youngmonkeys.ezyplatform",
-    "org.acme.ezy_starter"
+    "org.acme.ethantool"
 })
 public class EzyStarterThemeStartupTest {
 

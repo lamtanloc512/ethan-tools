@@ -5,7 +5,7 @@
       "name": "EzyTheme",
       "request": "launch",
       "cwd": "${workspaceFolder}/ethantool-theme",
-      "mainClass": "org.acme.ezy_starter.web.test.EzyStarterThemeStartupTest",
+      "mainClass": "org.acme.ethantool.web.test.EzyStarterThemeStartupTest",
       "args": ["-Dmaven.test.skip=false", "-jar"]
     },
     {
@@ -13,7 +13,7 @@
       "name": "EzyAdmin",
       "request": "launch",
       "cwd": "${workspaceFolder}/ethantool-admin-plugin",
-      "mainClass": "org.acme.ezy_starter.admin.test.EzyStarterAdminPluginStartupTest",
+      "mainClass": "org.acme.ethantool.admin.test.EzyStarterAdminPluginStartupTest",
       "args": ["-Dmaven.test.skip=false", "-jar"]
     },
     {

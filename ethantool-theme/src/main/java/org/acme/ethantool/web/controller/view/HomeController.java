@@ -1,4 +1,4 @@
-package org.acme.ezy_starter.web.controller.view;
+package org.acme.ethantool.web.controller.view;
 
 import com.tvd12.ezyhttp.server.core.annotation.Controller;
 import com.tvd12.ezyhttp.server.core.annotation.DoGet;

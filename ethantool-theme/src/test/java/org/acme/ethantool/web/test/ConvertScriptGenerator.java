@@ -1,4 +1,4 @@
-package org.acme.ezy_starter.web.test;
+package org.acme.ethantool.web.test;
 
 import com.tvd12.ezyfox.tool.EzySameObjectScriptCreator;
 
