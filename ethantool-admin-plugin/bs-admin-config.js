@@ -1,5 +1,5 @@
 const EZYPORT = 9090;
-const MODULE_NAME = "ezy-starter-admin-plugin";
+const MODULE_NAME = "ethantool-admin-plugin";
 
 module.exports = {
   proxy: `localhost:${EZYPORT}`,

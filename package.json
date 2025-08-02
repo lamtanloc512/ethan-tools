@@ -1,18 +1,18 @@
 {
-  "name": "ezy-starter",
+  "name": "ethantool",
   "version": "1.0.0",
-  "description": "Ezy starter template",
+  "description": "Ethantool template",
   "scripts": {
-    "dev": "concurrently -n theme,admin -c cyan,magenta \"browser-sync start --config 'ezy-starter-theme/bs-theme-config.js'\" \"browser-sync start --config 'ezy-starter-admin-plugin/bs-admin-config.js'\"",
-    "dev:theme": "browser-sync start --config 'ezy-starter-theme/bs-theme-config.js'",
-    "dev:admin": "browser-sync start --config 'ezy-starter-admin-plugin/bs-admin-config.js'"
+    "dev": "concurrently -n theme,admin -c cyan,magenta \"browser-sync start --config 'ethantool-theme/bs-theme-config.js'\" \"browser-sync start --config 'ethantool-admin-plugin/bs-admin-config.js'\"",
+    "dev:theme": "browser-sync start --config 'ethantool-theme/bs-theme-config.js'",
+    "dev:admin": "browser-sync start --config 'ethantool-admin-plugin/bs-admin-config.js'"
   },
   "keywords": [],
   "author": "Ethan (ethandev512@gmail.com)",
   "license": "ISC",
   "packageManager": "pnpm@10.13.1",
   "workspaces": [
-    "ezy-starter/*"
+    "ethantool/*"
   ],
   "devDependencies": {
     "browser-sync": "^3.0.4",

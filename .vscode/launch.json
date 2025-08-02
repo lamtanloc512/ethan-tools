@@ -4,7 +4,7 @@
       "type": "java",
       "name": "EzyTheme",
       "request": "launch",
-      "cwd": "${workspaceFolder}/ezy-starter-theme",
+      "cwd": "${workspaceFolder}/ethantool-theme",
       "mainClass": "org.acme.ezy_starter.web.test.EzyStarterThemeStartupTest",
       "args": ["-Dmaven.test.skip=false", "-jar"]
     },
@@ -12,7 +12,7 @@
       "type": "java",
       "name": "EzyAdmin",
       "request": "launch",
-      "cwd": "${workspaceFolder}/ezy-starter-admin-plugin",
+      "cwd": "${workspaceFolder}/ethantool-admin-plugin",
       "mainClass": "org.acme.ezy_starter.admin.test.EzyStarterAdminPluginStartupTest",
       "args": ["-Dmaven.test.skip=false", "-jar"]
     },

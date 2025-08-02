@@ -1,5 +1,5 @@
 const EZYPORT = 8080;
-const MODULE_NAME = "ezy-starter-theme";
+const MODULE_NAME = "ethantool-theme";
 
 module.exports = {
   proxy: `localhost:${EZYPORT}`,

@@ -3,7 +3,7 @@
 <suite name="AllTests">
     <test name="All">
         <packages>
-            <package name="org.acme.ezy_starter.admin.test" />
+            <package name="org.acme.ethantool.admin.test" />
         </packages>
     </test>
 </suite>
