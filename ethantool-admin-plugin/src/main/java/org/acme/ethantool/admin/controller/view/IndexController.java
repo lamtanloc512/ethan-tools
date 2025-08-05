@@ -7,7 +7,7 @@ import org.youngmonkeys.ezyplatform.admin.controller.view.AdminModuleIndexContro
 import org.youngmonkeys.ezyplatform.admin.manager.AdminMenuManager;
 
 @Authenticated
-@EzyFeature("ezy-starter")
+@EzyFeature("ethantool")
 @Controller
 public class IndexController extends AdminModuleIndexController {
 
@@ -17,6 +17,6 @@ public class IndexController extends AdminModuleIndexController {
 
     @Override
     protected String getModuleName() {
-        return "ezy-starter";
+        return "ethantool";
     }
 }

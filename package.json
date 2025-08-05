@@ -6,7 +6,8 @@
     "dev": "concurrently -n theme,admin -c cyan,magenta \"browser-sync start --config 'bs-theme-config.js'\" \"browser-sync start --config 'bs-admin-config.js'\"",
     "dev:theme": "browser-sync start --config 'bs-theme-config.js'",
     "dev:admin": "pnpm --filter ethantool-admin-plugin run dev:watch & browser-sync start --config 'bs-admin-config.js'",
-    "dev:admin:watch": "pnpm --filter ethantool-admin-plugin run dev:watch"
+    "dev:admin:watch": "pnpm --filter ethantool-admin-plugin run dev:watch",
+    "dev:admin:ui": "pnpm --filter ethantool-admin-plugin run dev"
   },
   "keywords": [],
   "author": "Ethan (ethandev512@gmail.com)",

@@ -14,7 +14,7 @@ public class DashboardController {
     @DoGet("/dashboard")
     public View settingsGet() {
         return View.builder()
-            .template("ezy-starter/dashboard")
+            .template("ethantool/dashboard")
             .build();
     }
 }

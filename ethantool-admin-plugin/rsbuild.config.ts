@@ -19,7 +19,7 @@ export default defineConfig({
       font: 'font',
       image: 'images',
     },
-    cleanDistPath: false,
+    cleanDistPath: true,
     filename: {
       js: () => `[name].js`,
       css: () => `[name].css`,

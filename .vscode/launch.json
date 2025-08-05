@@ -42,7 +42,16 @@
       "args": ["dev"],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal"
-    }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "UIDev",
+      "runtimeExecutable": "pnpm",
+      "args": ["dev:admin:ui"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
   ],
   "compounds": [
     {
@@ -56,6 +65,10 @@
     {
       "name": "Dev-All",
       "configurations": ["LivereloadAll", "EzyAdmin", "EzyTheme"]
+    },
+    {
+      "name": "Dev-Admin-Ui",
+      "configurations": ["UIDev", "EzyAdmin"]
     }
   ]
 }

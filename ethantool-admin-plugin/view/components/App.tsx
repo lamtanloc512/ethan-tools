@@ -1,13 +1,9 @@
-import '../styles/App.css';
+import EthTable from "./EthTable";
 
 const App = () => {
   return (
     <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
-      <p>Start building amazing things with Rsbuild.</p>
-      <p>Start building amazing things with Rsbuild.</p>
-      <p>Start building amazing things with Rsbuild.</p>
+      <EthTable />
     </div>
   );
 };

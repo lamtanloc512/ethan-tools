@@ -11,7 +11,7 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>ethantool</name>
-    <description>Ethan Tools</description>
+    <description>Ethantool</description>
     <properties>
         <!--suppress UnresolvedMavenProperty -->
         <ezyplatform.home>${env.EZYPLATFORM_HOME}</ezyplatform.home>

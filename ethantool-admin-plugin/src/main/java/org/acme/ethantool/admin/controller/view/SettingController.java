@@ -14,7 +14,7 @@ public class SettingController {
     @DoGet("/settings")
     public View settingsGet() {
         return View.builder()
-            .template("ezy-starter/settings")
+            .template("ethantool/settings")
             .build();
     }
 }
